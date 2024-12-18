@@ -3,7 +3,7 @@
   <h3>
 
 ```python
-if (sad) { sad.stop(); beAwesome() }
+    if (sad) { sad.stop(); beAwesome() }
 ```
 
 </h3>
