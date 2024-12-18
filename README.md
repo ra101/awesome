@@ -1,9 +1,9 @@
-<div align="center">
+
 
   <h3>
 
 ```python
-    if (sad) { sad.stop(); beAwesome() }
+if (sad) { sad.stop(); beAwesome() }
 ```
 
 </h3>
@@ -13,7 +13,7 @@ Gathered from all over the internet, A non-exhaustive opinionated Awesome list f
 
 <br/>
 
-</div>
+
 
 
 ### Windows Setup
