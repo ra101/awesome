@@ -8,7 +8,7 @@ if (sad) { sad.stop(); beAwesome() }
 
 </h3>
 
-Gathered from all over the internet, A non-exhaustive opinionated Awesome list for me; by me.
+Gathered from all over the internet, A non-exhaustive opinionated Awesome list by me; for me. 
 <h1></h1>
 
 <br/>
@@ -27,6 +27,10 @@ Gathered from all over the internet, A non-exhaustive opinionated Awesome list f
 <br/>
 <br/>
 
+### Browser (Chrome) Setup
+
+<br/>
+<br/>
 
 ### Python
 
