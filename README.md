@@ -16,19 +16,67 @@ Gathered from all over the internet, A non-exhaustive opinionated Awesome list b
 
 
 
-### Windows Setup
+## Windows Setup
 
-- [Chocolatey](https://chocolatey.org/install): The Package Manager for Windows (for managing dev langs and tools).
-  - [gsudo](https://community.chocolatey.org/packages/gsudo): It is a sudo equivalent for Windows, with a similar user-experience as the original *nix sudo.
-  - [Busybox](https://community.chocolatey.org/packages/busybox): A single binary that contains many common Unix tools.
-    - Run `sudo busybox --install` afterwards.
-  - [GNU Core Utilities](https://community.chocolatey.org/packages/gnuwin32-coreutils.install): They are the basic file, shell and text manipulation utilities of the GNU operating system.
-  - [Nano](https://community.chocolatey.org/packages/nano): A wonderfully easy-to-use and friendly Pico text editor.
-  - [NTop](https://community.chocolatey.org/packages/NTop.Portable): htop-like system-monitor with vi-emulation for Windows.
-  - [Attribute Changer](https://community.chocolatey.org/packages/attributechanger): Modify system attributes and manipulate date and time of files and folders.
-  - [Opera Neon](https://community.chocolatey.org/packages/opera-neon): A vision for the future of desktop browsers.
+### Dev Tools
 
-- Winget
+[Chocolatey](https://chocolatey.org/install): The OG Package Manager for Windows (for managing dev langs and tools).
+
+[WinGet](https://github.com/microsoft/winget-cli): The Official Windows Package Manager.
+```
+https://aka.ms/getwinget
+```
+
+[gsudo](https://github.com/gerardog/gsudo): It is a sudo equivalent for Windows, with a similar user-experience as the original *nix sudo.
+```
+winget install gerardog.gsudo
+
+choco install gsudo
+```
+<br/>
+
+[Busybox](https://frippery.org/busybox/): A binary containing many common Unix tools.
+```
+sudo choco install busybox && sudo busybox --install
+```
+<br/>
+
+[GNU Core Utilities](https://gnuwin32.sourceforge.net/packages/coreutils.htm): They are the GNU operating system's basic file, shell and text manipulation utilities.
+```
+sudo choco install gnuwin32-coreutils.install
+```
+<br/>
+
+
+[Nano](https://github.com/okibcn/nano-for-windows): A wonderfully easy-to-use and friendly Pico text editor.
+```
+sudo choco install nano
+```
+<br/>
+
+[NTop](https://github.com/gsass1/NTop): A `htop` like system-monitor with vi-emulation for Windows.
+```
+winget install -e --id gsass1.NTop
+
+sudo choco install ntop.portable
+```
+<br/>
+
+
+### Fun Software
+
+[Attribute Changer](https://www.petges.lu/): Modify system attributes and manipulate the date and time of files and folders.
+```
+sudo choco install attributechanger
+```
+<br/>
+
+[Opera Neon](https://www.opera.com/browsers/neon): A vision for the future of desktop browsers.
+```
+sudo choco install opera-neon
+```
+<br/>
+
 
 ```
 Git
@@ -43,7 +91,7 @@ Typora
 File Converter (64 bit)
 osquery
 4K Video Downloader
-Avidemux 2.8 - 64 bits
+Avidemux 2.8 64 bits
 AOMEI Partition Assistant 9.14.0
 LocalWP 5.6.6
 Stretchly 1.15.1
@@ -56,35 +104,35 @@ Postman x86_64 10.21.0
 <br/>
 
 
-### MacOS/Linux Setup
+## MacOS/Linux Setup
 
 <br/>
 <br/>
 
-### Browser (Chrome) Setup
+## Browser (Chrome) Setup
 
 <br/>
 <br/>
 
-### Python
-
-<br/>
-<br/>
-
-
-### Data Science 
+## Python
 
 <br/>
 <br/>
 
 
-### Javascript
+## Data Science 
 
 <br/>
 <br/>
 
 
-### Docker, Kubernetes, Infra++
+## Javascript
+
+<br/>
+<br/>
+
+
+## Docker, Kubernetes, Infra++
 
 <br/>
 <br/>
