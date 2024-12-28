@@ -1,19 +1,11 @@
-
-
-  <h3>
-
-```python
+```cpp
 if (sad) { sad.stop(); beAwesome() }
 ```
-
-</h3>
-
 Gathered from all over the internet, A non-exhaustive opinionated Awesome list by me; for me. 
+
 <h1></h1>
 
 <br/>
-
-
 
 
 ## Windows Setup
